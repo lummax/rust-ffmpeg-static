@@ -1,0 +1,3 @@
+[submodule "native/ffmpeg"]
+	path = native/ffmpeg
+	url = git://source.ffmpeg.org/ffmpeg.git
