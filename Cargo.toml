@@ -2,3 +2,9 @@
 name = "rust-ffmpeg-static"
 version = "0.1.0"
 authors = ["lummax <luogpg@googlemail.com>"]
+
+[features]
+default = ["ffmpeg/static"]
+
+[dependencies.ffmpeg]
+git = "https://github.com/meh/rust-ffmpeg"
