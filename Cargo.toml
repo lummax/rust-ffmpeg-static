@@ -2,6 +2,7 @@
 name = "rust-ffmpeg-static"
 version = "0.1.0"
 authors = ["lummax <luogpg@googlemail.com>"]
+build = "build.rs"
 
 [features]
 default = ["ffmpeg/static"]
